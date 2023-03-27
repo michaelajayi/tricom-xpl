@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import MeetTheTeam from "../components/MeetTheTeam";
 import OurPartners from "../components/OurPartners";
+import OurPortfolio from "../components/OurPortfolio";
+import Parallax from "../components/Parallax";
 import WhyTricom from "../components/WhyTricom";
 
 const Homepage = () => {
@@ -14,7 +16,8 @@ const Homepage = () => {
       <AboutCards />
       <MeetTheTeam />
       <OurPartners />
-      <Footer />
+      <Parallax />
+      <OurPortfolio />
     </div>
   );
 };

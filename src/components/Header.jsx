@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <div className='h-screen w-screen flex justify-center'>
       <div className='flex flex-col'>
-        <Nav />
         <HeaderBody />
       </div>
     </div>

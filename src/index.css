@@ -14,7 +14,7 @@ body {
 }
 
 .long-img:after {
-  content: "dlkdjd";
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
