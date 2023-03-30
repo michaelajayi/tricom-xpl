@@ -181,7 +181,7 @@ const Footer = () => {
         <img
           src={madeInAfrica}
           alt='footer pattern'
-          className='w-full object-cover h-full scale-[3] lg:scale-1'
+          className='w-full object-cover h-full scale-[3] lg:scale-[1]'
         />
       </div>
     </footer>
