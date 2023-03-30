@@ -99,14 +99,16 @@ const Footer = () => {
           {/* copyright information */}
           <div className='flex flex-col space-y-5'>
             <img src={logo} alt='tricom logo' />
-            <p className='text-navy-blue text-[14px] w-full'>
+            <p className='text-navy-blue text-[14px] w-full text-center lg:text-start'>
               &copy; {new Date().getFullYear()} Tricom
             </p>
           </div>
 
           {/* contact */}
           <div className='flex flex-col items-center lg:items-start justify-start lg:justify-center space-y-5'>
-            <p className='text-navy-blue text-[20px] text-center font-medium'>Contact</p>
+            <p className='text-navy-blue text-[20px] text-center font-medium'>
+              Contact
+            </p>
             <ul className='flex flex-col space-y-4 lg:space-y-5'>
               {socialLinks.map((link, index) => (
                 <li
@@ -119,7 +121,9 @@ const Footer = () => {
 
           {/* about */}
           <div className='flex flex-col space-y-5'>
-            <p className='text-navy-blue text-[20px] text-center lg:text-start font-medium'>About</p>
+            <p className='text-navy-blue text-[20px] text-center lg:text-start font-medium'>
+              About
+            </p>
             <ul className='flex flex-col space-y-4 lg:space-y-5'>
               {aboutUsLinks.map((item, index) => (
                 <li
@@ -157,7 +161,7 @@ const Footer = () => {
               Connect with us
             </p>
             {/* social icons */}
-            <div className='flex space-x-5 items-center'>
+            <div className='flex space-x-5 items-center pb-10 lg:pb-0'>
               {socialIcons.map((icon) => (
                 <a href={icon.link} key={icon.title}>
                   <img
@@ -177,7 +181,7 @@ const Footer = () => {
         <img
           src={madeInAfrica}
           alt='footer pattern'
-          className='w-full object-cover h-full'
+          className='w-full object-cover h-full scale-[3] lg:scale-1'
         />
       </div>
     </footer>
