@@ -996,6 +996,18 @@ video {
   background-position: center;
 }
 
+.bg-right{
+  background-position: right;
+}
+
+.bg-left{
+  background-position: left;
+}
+
+.bg-right-top{
+  background-position: right top;
+}
+
 .bg-no-repeat{
   background-repeat: no-repeat;
 }
@@ -1567,6 +1579,10 @@ body {
 
   .lg\:bg-cover{
     background-size: cover;
+  }
+
+  .lg\:bg-center{
+    background-position: center;
   }
 
   .lg\:px-0{
