@@ -102,20 +102,20 @@ const OurPartners = () => {
   ];
   return (
     <div className='w-full bg-sky-blue h-auto flex justify-center py-20'>
-      <div className='lg:w-[90%] flex flex-col justify-center space-y-20'>
+      <div className='lg:w-[90%] w-full flex flex-col justify-center space-y-20'>
         {/* Partner with us */}
         <div className='flex flex-col space-y-5 mx-auto border border-b-1 border-t-0 border-l-0 border-r-0 border-navy-blue pb-20'>
-          <p className='text-navy text-[1rem] leading-[21px] tracking-[.01em] uppercase'>
+          <p className='text-navy text-[1rem] leading-[21px] tracking-[.01em] uppercase text-center lg:text-start'>
             Our Partners
           </p>
-          <div className='flex justify-between'>
+          <div className='flex justify-between flex-col lg:flex-row space-y-3 lg:space-y-0'>
             <div className='w-full'>
-              <h1 className='text-[56px] font-medium leading-[73px] -tracking-[.011em] text-navy w-[65%]'>
+              <h1 className='text-[35px] lg:text-[56px] font-medium leading-[45px] lg:leading-[73px] -tracking-[.011em] text-navy w-full lg:w-[65%] text-center lg:text-start'>
                 Global partnership through thick and thin
               </h1>
             </div>
-            <div className='flex flex-col items-start w-[50%] space-y-5'>
-              <p className='text-[18px] leading-[150%] -tracking-[.011em] text-navy'>
+            <div className='flex flex-col lg:items-start items-center lg:w-[50%] space-y-5 w-full px-5 lg:px-0'>
+              <p className='text-[18px] leading-[150%] lg:leading-[150%] -tracking-[.011em] text-navy text-center lg:text-start'>
                 Some brief summary of partners go here to lead website visitors
                 to the partners’ page
               </p>
@@ -137,8 +137,8 @@ const OurPartners = () => {
 
         {/* What We Do */}
         <div className='flex flex-col justify-center items-center'>
-          <div className='w-1/2 flex flex-col space-y-1 justify-center items-center'>
-            <h2 className='font-medium text-[50px] tracking-[.01em]'>
+          <div className='w-full lg:w-1/2 flex flex-col space-y-1 justify-center items-center'>
+            <h2 className='font-medium text-[35px] lg:text-[50px] tracking-[.01em] text-center lg:text-start'>
               What We Do
             </h2>
             <p className='text-[#011D21] text-[1rem] leading-[28px] text-center w-[86%]'>
@@ -149,10 +149,10 @@ const OurPartners = () => {
           </div>
 
           {/* What we do cards */}
-          <div className='flex flex-col md:flex-row justify-between my-10 space-x-10'>
+          <div className='flex flex-col md:flex-row justify-between my-10 lg:space-x-10 space-x-0 space-y-5 lg:space-y-0'>
             {whatWeDo.map((item, index) => (
               <div
-                className='flex flex-col items-start space-y-10 bg-white hover:bg-[#9ED1FF] h-auto px-10 py-10 w-full lg:w-[279px] border border-1 border-[#011D21] hover:border-[#9ED1FF] transition-all duration-200 ease-in-out what-we-do-card cursor-pointer'
+                className='flex flex-col items-start space-y-10 bg-white hover:bg-light-blue h-[460px] px-10 py-10 w-full lg:w-[290px] border border-1 border-[#011D21] hover:border-light-blue transition-all duration-200 ease-in-out what-we-do-card cursor-pointer'
                 key={index}
               >
                 <div className='circle-icon'>

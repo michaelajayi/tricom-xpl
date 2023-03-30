@@ -23,11 +23,11 @@ const AboutCards = () => {
     },
   ];
   return (
-    <div className='w-full flex justify-center py-20 bg-white'>
-      <div className='lg:w-[90%] flex h-[485px] justify-between '>
+    <div className='w-full flex justify-center py-10 lg:py-20 bg-white'>
+      <div className='w-full lg:w-[90%] flex flex-col lg:flex-row h-full space-y-5 lg:space-y-0 lg:h-[485px] justify-between px-5 lg:px-0'>
         {aboutCards.map((card, index) => (
           <div
-            className='flex flex-col space-y-1 w-[30%] px-5 py-10 relative'
+            className='flex flex-col space-y-1 w-full lg:w-[30%] px-5 py-10 relative'
             key={index}
           >
             <img
@@ -43,12 +43,6 @@ const AboutCards = () => {
             </div>
           </div>
         ))}
-
-        {/* <div className='flex justify-between w-full'>
-          {aboutCards.map((card, index) => (
-            <img src={card.img} alt={card.title} key={index}></img>
-          ))}
-        </div> */}
       </div>
     </div>
   );

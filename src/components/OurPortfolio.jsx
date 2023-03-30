@@ -6,17 +6,17 @@ import HomepagePortfolios from "./LandingPortfolios";
 const OurPortfolio = () => {
   return (
     <div className='w-full bg-sky-blue py-20 flex justify-center'>
-      <div className='lg:w-[90%] flex flex-col space-y-20'>
-        <div className='flex justify-between'>
-          <div className='flex justify-between w-1/2'>
-            <div className='w-[60%]'>
-              <h2 className='text-navy-blue text-[56px] -leading-[.011em] leading-[73px]'>
+      <div className='lg:w-[90%] flex flex-col space-y-20 space-x-5 lg:space-x-0'>
+        <div className='flex justify-between flex-col lg:flex-row px-5 lg:px-0 space-y-3 lg:space-y-0'>
+          <div className='flex justify-between w-full lg:w-1/2'>
+            <div className='w-full lg:w-[60%]'>
+              <h2 className='text-navy-blue text-[30px] lg:text-[56px] -tracking-[.011em] leading-[35px] lg:leading-[73px]'>
                 Our Portfolio of mission-driven Projects
               </h2>
             </div>
           </div>
-          <div className='w-1/2'>
-            <div className='flex flex-col space-y-5 items-start w-[60%]'>
+          <div className='lg:w-1/2 w-full'>
+            <div className='flex flex-col space-y-5 items-start w-full lg:w-[60%]'>
               <p>
                 Our entrepreneurs are scaling new ideas, technologies, and
                 business models across a number of frontier themes.{" "}
@@ -33,8 +33,8 @@ const OurPortfolio = () => {
             </div>
           </div>
         </div>
-              {/* Our Portfolios */}
-              <HomepagePortfolios />
+        {/* Our Portfolios */}
+        <HomepagePortfolios />
       </div>
     </div>
   );

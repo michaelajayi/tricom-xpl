@@ -10,7 +10,7 @@ import WhyTricom from "../components/WhyTricom";
 
 const Homepage = () => {
   return (
-    <div className='bg-long-img h-auto w-screen bg-cover bg-no-repeat bg-fixed long-img'>
+    <div className='bg-long-img h-auto w-screen bg-cover bg-no-repeat bg-fixed long-img bg-center'>
       <Header />
       <WhyTricom />
       <AboutCards />

@@ -1,18 +1,18 @@
-<svg width="195" height="240" viewBox="0 0 195 240" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="230" height="246" viewBox="0 0 230 246" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_50_15854)">
-<rect width="195" height="240" fill="#FBB000"/>
+<rect width="229.97" height="246" fill="#FBB000"/>
 <g clip-path="url(#clip1_50_15854)">
 <path d="M-19.3771 246.558L-18.0493 256L191.896 255.852L195.29 244.64L172.937 234.283H166.214V229.628L167.5 220L156.5 207L134.5 184L121.5 173.5L123 169L121.5 163L124.5 153.5L116.049 148.5L111.365 146.783C109.376 146.054 109.088 143.361 110.877 142.228L110.36 134.47L116.049 123.092L120.703 109.129L122.772 100.337V91.5454L119.152 81.2022V69.8245L117.083 56.3783L110.36 42.4148L101.568 31.5544L93.8105 25.3484L87.0873 20.6939L80.8814 18.9078L76.2269 17.5909H70.0209H59.6776L45.197 20.6939L32.2679 28.4977L25.5448 35.6917L20.8903 45.0007L17.7873 55.3439L17.2702 66.7216L12.6157 70.8589L9.5127 80.1678L9.5127 89.9939L12.6157 101.372L21.4907 109.791L23.8513 122.575L19.2776 128.233L16.2358 137.573L11.0642 144.813H4H-5L-9.4921 147.855L-12.2953 159.363V167.92L-15.0985 171.314V184.149L-18.0493 198.018L-21 202.296L-19.3771 212.624L-18.0493 234.017L-19.3771 246.558Z" fill="white"/>
 <rect x="-1" y="7" width="165.818" height="288" fill="url(#pattern0)"/>
 </g>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M194.999 200H170V225H194.999V200ZM195 225H145V240H195V225Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M229.999 206H205V231H229.999V206ZM230 231H180V246H230V231Z" fill="white"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_50_15854" transform="scale(0.00263958 0.00151976)"/>
 </pattern>
 <clipPath id="clip0_50_15854">
-<rect width="195" height="240" fill="white"/>
+<rect width="229.97" height="246" fill="white"/>
 </clipPath>
 <clipPath id="clip1_50_15854">
 <rect width="217.674" height="240" fill="white" transform="translate(-0.836914 6)"/>

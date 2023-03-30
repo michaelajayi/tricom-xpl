@@ -59,7 +59,7 @@ const Footer = () => {
     },
     {
       title: "Tel",
-      value: "0806 449 6980, 0805 129 4887, 0701 916 6666",
+      value: "08064496980, 08051294887, 07019166666",
     },
   ];
 
@@ -79,10 +79,11 @@ const Footer = () => {
   ];
   return (
     <footer className='w-full bg-white flex justify-center py-20 relative'>
-      <div className='lg:w-[90%] flex flex-col space-y-20 py-[6rem]'>
-        <div className='bg-light-blue flex justify-between px-10 py-10 items-start'>
-          <div className='w-1/2'>
-            <p className='text-white text-[32px] -tracking-[.011em] leading-[42px] w-[70%]'>
+      <div className='lg:w-[90%] w-full flex flex-col space-y-20 lg:py-[6rem]'>
+        {/* let's discuss the future of your brand */}
+        <div className='flex flex-col lg:flex-row justify-between px-10 py-10 lg:items-start items-center space-y-5 bg-light-blue'>
+          <div className='w-full lg:w-1/2'>
+            <p className='text-white text-[32px] -tracking-[.011em] leading-[42px] w-full lg:w-[70%] text-center lg:text-start'>
               Let's discuss the future of your brand
             </p>
           </div>
@@ -93,53 +94,68 @@ const Footer = () => {
             <img src={arrowUpRightNavy} alt='arrow up right cursor-pointer' />
           </div>
         </div>
-        {/* footer links */}
-        <div className='flex space-x-60'>
+
+        <div className='flex flex-col lg:flex-row space-x-0 space-y-20 lg:space-y-0 lg:space-x-40 lg:items-start justify-center items-center lg:justify-start'>
+          {/* copyright information */}
           <div className='flex flex-col space-y-5'>
-            <img src={logo} alt='logo' />
-            <p className='text-navy-blue text-[14px]'>
+            <img src={logo} alt='tricom logo' />
+            <p className='text-navy-blue text-[14px] w-full'>
               &copy; {new Date().getFullYear()} Tricom
             </p>
           </div>
-          <div className='flex space-x-20'>
-            <div className='flex flex-col space-y-5'>
-              <p className='text-navy-blue text-[20px]'>Contact</p>
-              <ul className='flex flex-col space-y-5'>
-                {socialLinks.map((link, index) => (
-                  <li
-                    key={index}
-                    className='text-navy-blue text-[1rem] leading-[150%]'
-                  >{`${link.title}: ${link.value}`}</li>
-                ))}
-              </ul>
-            </div>
-            <div className='flex flex-col space-y-5'>
-              <p className='text-navy-blue text-[20px]'>About</p>
-              <ul className='flex flex-col space-y-5'>
-                {aboutUsLinks.map((item, index) => (
-                  <li
-                    key={index}
-                    className='text-navy-blue text-[1rem] leading-[150%]'
-                  >
-                    <a href={item.link}>{item.title}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+
+          {/* contact */}
+          <div className='flex flex-col items-center lg:items-start justify-start lg:justify-center space-y-5'>
+            <p className='text-navy-blue text-[20px] text-center font-medium'>Contact</p>
+            <ul className='flex flex-col space-y-4 lg:space-y-5'>
+              {socialLinks.map((link, index) => (
+                <li
+                  key={index}
+                  className='text-navy-blue text-[1rem] leading-[150%] text-center lg:text-start'
+                >{`${link.title}: ${link.value}`}</li>
+              ))}
+            </ul>
+          </div>
+
+          {/* about */}
+          <div className='flex flex-col space-y-5'>
+            <p className='text-navy-blue text-[20px] text-center lg:text-start font-medium'>About</p>
+            <ul className='flex flex-col space-y-4 lg:space-y-5'>
+              {aboutUsLinks.map((item, index) => (
+                <li
+                  key={index}
+                  className='text-navy-blue text-[1rem] leading-[150%] text-center lg:text-start'
+                >
+                  <a href={item.link}>{item.title}</a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
-        <div className='flex justify-between pt-10 border border-t-1 border-b-0 border-l-0 border-r-0 border-navy-blue'>
-          <div className='flex space-x-5'>
-            <p className='text-navy-blue text-[1rem]'>Copyright</p>
-            <a href='/terms-of-use' className='text-[1rem] text-navy-blue'>
+
+        {/* copyright */}
+        <div className='flex pt-10 justify-between border border-t-1 border-b-0 border-l-0 border-r-0 border-navy-blue flex-col lg:flex-row space-y-10 lg:space-y-0'>
+          <div className='flex space-x-0 flex-col lg:flex-row lg:space-y-0 space-y-4 lg:space-x-5 items-center'>
+            <p className='text-navy-blue text-[1rem] text-center lg:text-start'>
+              Copyright
+            </p>
+            <a
+              href='/terms-of-use'
+              className='text-[1rem] text-navy-blue text-center lg:text-start'
+            >
               Terms of use
             </a>
-            <a href='/privacy-policy' className='text-navy-blue text-[1rem]'>
+            <a
+              href='/privacy-policy'
+              className='text-navy-blue text-[1rem] text-center lg:text-start'
+            >
               Privacy policy
             </a>
           </div>
-          <div className='flex space-x-5'>
-            <p className='text-navy-blue text-[14px]'>Connect with us</p>
+          <div className='flex space-x-0 flex-col lg:flex-row space-y-2 items-center lg:space-x-5'>
+            <p className='text-navy-blue text-[14px] text-center text-lg:start'>
+              Connect with us
+            </p>
             {/* social icons */}
             <div className='flex space-x-5 items-center'>
               {socialIcons.map((icon) => (
@@ -155,11 +171,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      {/* made in africa */}
       <div className='absolute bottom-0 left-0 w-full'>
         <img
           src={madeInAfrica}
           alt='footer pattern'
-          className='w-full object-cover'
+          className='w-full object-cover h-full'
         />
       </div>
     </footer>

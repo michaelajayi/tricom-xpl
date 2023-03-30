@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+
+import { CgClose, CgMenuRight } from "react-icons/cg";
+import { TfiClose } from "react-icons/tfi";
 
 import logo from "../assets/img/logo.svg";
 
@@ -10,11 +13,13 @@ const Nav = () => {
     { name: "Services", link: "/services" },
     { name: "Contact Us", link: "/contact-us" },
   ];
+
+  const [openMobileMenu, setOpenMobileMenu] = useState(false);
   return (
     <div className='w-full h-auto flex justify-center bg-white'>
-      <div className='flex flex-col lg:flex-row justify-between lg:items-start py-[2rem] w-full lg:w-[90%]'>
+      <div className='flex lg:flex-row justify-between lg:items-start items-center py-[2rem] w-full lg:w-[90%] px-5 lg:px-0'>
         <a href='/'>
-          <img src={logo} alt='logo' className="scale-[1.5] ml-[1.5rem]" />
+          <img src={logo} alt='logo' className='scale-[1.5] ml-[1.5rem]' />
         </a>
         <div className='space-x-20 hidden lg:flex'>
           {navLinks.map((link, index) => (
@@ -26,6 +31,22 @@ const Nav = () => {
               {link.name}
             </a>
           ))}
+        </div>
+        {/* toggle mobile menu */}
+        <div className='cursor-pointer block lg:hidden'>
+          {openMobileMenu ? (
+            <CgClose
+              size={30}
+              className='text-theme-yellow'
+              onClick={() => setOpenMobileMenu(!openMobileMenu)}
+            />
+          ) : (
+            <CgMenuRight
+              size={30}
+              className='text-theme-yellow'
+              onClick={() => setOpenMobileMenu(!openMobileMenu)}
+            />
+          )}
         </div>
       </div>
     </div>
