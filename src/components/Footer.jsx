@@ -177,11 +177,11 @@ const Footer = () => {
       </div>
 
       {/* made in africa */}
-      <div className='absolute bottom-0 left-0 w-full'>
+      <div className='absolute bottom-0 left-0 w-screen h-[50px]'>
         <img
           src={madeInAfrica}
           alt='footer pattern'
-          className='w-full object-cover h-full scale-[3] lg:scale-[1]'
+          className='w-full object-cover h-full lg:scale-[1]'
         />
       </div>
     </footer>
