@@ -5,6 +5,7 @@ import brandActivation from "../assets/img/brand-activation.svg";
 import exhibitions from "../assets/img/exhibitions.svg";
 import marketing from "../assets/img/marketing.svg";
 import sponsorship from "../assets/img/sponsorship.svg";
+import OurPartnersSlider from "./OurPartnersSlider";
 
 const OurPartners = () => {
   const whatWeDo = [
@@ -133,6 +134,11 @@ const OurPartners = () => {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* our partners logos */}
+        <div>
+          <OurPartnersSlider />
         </div>
 
         {/* What We Do */}

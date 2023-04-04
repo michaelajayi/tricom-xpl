@@ -22,28 +22,8 @@ const Gallery = () => {
         keyboard={{
           enabled: true,
         }}
-        className='mySwiper'
+        className='mySwiper-gallery'
         freeMode={true}
-        navigation={{
-          prevEl: ".prev-arrow",
-          nextEl: ".next-arrow",
-        }}
-        // pagination={{
-        //   el: ".landing-portfolio-pagination",
-        //   type: "fraction",
-        //   clickable: true,
-        //   renderFraction: function (currentClass, totalClass) {
-        //     return (
-        //       '<span class="' +
-        //       currentClass +
-        //       '"></span>' +
-        //       "<span> / </span> " +
-        //       '<span class="' +
-        //       totalClass +
-        //       '"></span>'
-        //     );
-        //   },
-        // }}
         breakpoints={{
           320: {
             slidesPerView: 1,

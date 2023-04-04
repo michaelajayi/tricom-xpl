@@ -26,7 +26,7 @@ const LandingPortfolios = () => {
         keyboard={{
           enabled: true,
         }}
-        className='mySwiper'
+        className='mySwiper-landingPortfolio'
         freeMode={true}
         navigation={{
           prevEl: ".prev-arrow",
