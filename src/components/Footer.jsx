@@ -1,5 +1,7 @@
 import React from "react";
 
+import Gallery from "./Gallery";
+
 import arrowUpRightNavy from "../assets/img/arrow-up-right-navy.svg";
 import madeInAfrica from "../assets/img/footer-pattern.svg";
 
@@ -78,7 +80,14 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className='w-full bg-white flex justify-center py-20 relative'>
+    <footer className='w-full bg-white flex-col flex justify-center py-20 relative items-center'>
+      {/* our gallery */}
+      <div className='lg:w-[90%] w-full flex flex-col space-y-10'>
+        <h1 className='text-[32px] leading-[42px] -tracking-[.011em] text-navy-blue'>
+          Our Gallery
+        </h1>
+        <Gallery />
+      </div>
       <div className='lg:w-[90%] w-full flex flex-col space-y-20 lg:py-[6rem]'>
         {/* let's discuss the future of your brand */}
         <div className='flex flex-col lg:flex-row justify-between px-10 py-10 lg:items-start items-center space-y-5 bg-light-blue'>
@@ -177,11 +186,11 @@ const Footer = () => {
       </div>
 
       {/* made in africa */}
-      <div className='absolute bottom-0 left-0 w-screen h-[50px]'>
+      <div className='absolute bottom-0 left-0 w-screen h-[60px]'>
         <img
           src={madeInAfrica}
           alt='footer pattern'
-          className='w-full object-cover h-full lg:scale-[1]'
+          className='w-full object-cover h-full lg:h-auto lg:scale-[1]'
         />
       </div>
     </footer>

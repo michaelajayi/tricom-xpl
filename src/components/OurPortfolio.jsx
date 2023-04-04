@@ -1,7 +1,7 @@
 import React from "react";
 
 import arrowUpRightNavy from "../assets/img/arrow-up-right-navy.svg";
-import HomepagePortfolios from "./LandingPortfolios";
+import LandingPortfolios from "./LandingPortfolios";
 
 const OurPortfolio = () => {
   return (
@@ -34,7 +34,7 @@ const OurPortfolio = () => {
           </div>
         </div>
         {/* Our Portfolios */}
-        <HomepagePortfolios />
+        <LandingPortfolios />
       </div>
     </div>
   );
