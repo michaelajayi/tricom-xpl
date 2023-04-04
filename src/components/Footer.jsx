@@ -80,9 +80,9 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className='w-full bg-white flex-col flex justify-center py-20 relative items-center'>
+    <footer className='w-full bg-white flex-col flex justify-center py-20 relative items-center overflow-x-hidden'>
       {/* our gallery */}
-      <div className='lg:w-[90%] w-full flex flex-col space-y-10'>
+      <div className='lg:w-[90%] px-5 lg:px-0 w-full flex flex-col space-y-10 py-10'>
         <h1 className='text-[32px] leading-[42px] -tracking-[.011em] text-navy-blue'>
           Our Gallery
         </h1>

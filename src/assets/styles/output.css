@@ -543,8 +543,24 @@ video {
   top: 0px;
 }
 
+.top-\[178px\]{
+  top: 178px;
+}
+
+.top-\[158px\]{
+  top: 158px;
+}
+
+.top-\[100px\]{
+  top: 100px;
+}
+
 .z-\[2\]{
   z-index: 2;
+}
+
+.-z-\[10\]{
+  z-index: -10;
 }
 
 .mx-auto{
@@ -649,6 +665,10 @@ video {
 
 .h-\[120px\]{
   height: 120px;
+}
+
+.h-\[205px\]{
+  height: 205px;
 }
 
 .w-\[86\%\]{
@@ -892,6 +912,16 @@ video {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-8 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
+
 .border{
   border-width: 1px;
 }
@@ -918,6 +948,10 @@ video {
 
 .border-l{
   border-left-width: 1px;
+}
+
+.border-r{
+  border-right-width: 1px;
 }
 
 .border-\[\#011D21\]{
@@ -1068,6 +1102,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-40{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1094,6 +1133,26 @@ video {
 
 .pt-\[2rem\]{
   padding-top: 2rem;
+}
+
+.pb-40{
+  padding-bottom: 10rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
+.pb-\[11rem\]{
+  padding-bottom: 11rem;
+}
+
+.pb-\[8rem\]{
+  padding-bottom: 8rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .text-center{
@@ -1196,6 +1255,22 @@ video {
   line-height: 50px;
 }
 
+.leading-\[44px\]{
+  line-height: 44px;
+}
+
+.leading-\[\]{
+  line-height: ;
+}
+
+.leading-\[0\]{
+  line-height: 0;
+}
+
+.leading-\[40px\]{
+  line-height: 40px;
+}
+
 .-tracking-\[\.011em\]{
   letter-spacing: -.011em;
 }
@@ -1210,6 +1285,18 @@ video {
 
 .-tracking-\[\.11em\]{
   letter-spacing: -.11em;
+}
+
+.-tracking-\[\.2\]{
+  letter-spacing: -.2;
+}
+
+.-tracking-\[\.02\]{
+  letter-spacing: -.02;
+}
+
+.-tracking-\[\.02em\]{
+  letter-spacing: -.02em;
 }
 
 .text-\[\#002F86\]{
@@ -1260,6 +1347,11 @@ video {
 .text-\[\#D59962\]{
   --tw-text-opacity: 1;
   color: rgb(213 153 98 / var(--tw-text-opacity));
+}
+
+.text-\[\#667085\]{
+  --tw-text-opacity: 1;
+  color: rgb(102 112 133 / var(--tw-text-opacity));
 }
 
 .transition-all{
