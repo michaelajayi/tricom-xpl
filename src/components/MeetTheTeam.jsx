@@ -1,31 +1,6 @@
-import habeebAdeleye from "../assets/img/team/habeeb-adeleye.svg";
-import kayodeOkunade from "../assets/img/team/kayode-okunade.svg";
-import lekanBolaji from "../assets/img/team/lekan-bolaji.svg";
-import olaoluwaOlatunji from "../assets/img/team/olaoluwa-olatunji.svg";
+import { team } from "../global/team";
 
 const MeetTheTeam = () => {
-  const team = [
-    {
-      name: "Lekan Bolaji",
-      img: lekanBolaji,
-      link: "lekan-bolaji",
-    },
-    {
-      name: "Habeeb Adeleye",
-      img: habeebAdeleye,
-      link: "habeeb-adeleye",
-    },
-    {
-      name: "Kayode Okunade",
-      img: kayodeOkunade,
-      link: "kayode-okunade",
-    },
-    {
-      name: "Olaoluwa Olatunji",
-      img: olaoluwaOlatunji,
-      link: "olaoluwa-olatunji",
-    },
-  ];
   return (
     <div className='w-full flex justify-center h-auto py-20 bg-white'>
       <div className='w-full lg:w-[90%] border border-t-1 border-r-0 border-l-0 border-b-0 border-navy-blue pt-10 space-y-5 lg:space-y-0'>
@@ -33,16 +8,17 @@ const MeetTheTeam = () => {
           Meet the team
         </p>
         <div className='flex flex-col lg:flex-row space-y-10 lg:space-y-0 justify-end space-x-5 cursor-pointer'>
-          {team.map((member, index) => (
-            <div className='flex flex-col items-center' key={index}>
-              <a href={`/team/${member.link}`} alt={member.name}>
-                <img src={member.img} key={index} alt={member.name} />
-                <p className='text-[#011D21] text-[1rem] font-medium text-center lg:text-start'>
-                  {member.name}
-                </p>
-              </a>
-            </div>
-          ))}
+          {team &&
+            team.map((member, index) => (
+              <div className='flex flex-col items-center' key={index}>
+                <a href={`/team/${member.link}`} alt={member.name}>
+                  <img src={member.img} key={index} alt={member.name} />
+                  <p className='text-[#011D21] text-[1rem] font-medium text-center lg:text-start'>
+                    {member.name}
+                  </p>
+                </a>
+              </div>
+            ))}
         </div>
       </div>
     </div>
