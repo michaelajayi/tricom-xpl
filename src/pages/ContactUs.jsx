@@ -100,7 +100,7 @@ const ContactUs = () => {
             </div>
 
             {/* submit btn */}
-            <div className='flex space-x-1 items-center bg-light-blue px-10 py-3 max-w-max'>
+            <div className='flex space-x-1 items-center cursor-pointer bg-light-blue px-10 py-3 max-w-max'>
               <p className='text-white'>Get in touch</p>
               <img src={arrowUpRightWhite} alt='arrow up right' />
             </div>

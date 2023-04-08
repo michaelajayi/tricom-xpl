@@ -11,9 +11,9 @@ const Services = () => {
       <img
         src={aboutUsVector}
         alt='about us vector'
-        className='absolute top-[100px] left-0 w-full object-cover -z-[10] h-[205px]'
+        className='absolute top-[100px] left-0 w-full object-cover -z-[10]'
       />
-      <div className='w-full lg:w-[90%] px-5 lg:px-0 flex flex-col space-y-5 pb-10 pt-20'>
+      <div className='w-full lg:w-[90%] px-5 lg:px-0 flex flex-col space-y-5 lg:pb-10 pt-20'>
         <h1 className='text-[32px] text-deep-blue -tracking-[.02em] leading-[44px]'>
           What We Do
         </h1>

@@ -80,14 +80,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className='w-full bg-white flex-col flex justify-center py-20 relative items-center overflow-x-hidden'>
-      {/* our gallery */}
-      <div className='lg:w-[90%] px-5 lg:px-0 w-full flex flex-col space-y-10 py-10'>
-        <h1 className='text-[32px] leading-[42px] -tracking-[.011em] text-navy-blue'>
-          Our Gallery
-        </h1>
-        <Gallery />
-      </div>
+    <footer className='w-full bg-white flex-col flex justify-center py-0 lg:py-0 relative items-center overflow-x-hidden '>
       <div className='lg:w-[90%] w-full flex flex-col space-y-20 lg:py-[6rem]'>
         {/* let's discuss the future of your brand */}
         <div className='flex flex-col lg:flex-row justify-between px-10 py-10 lg:items-start items-center space-y-5 bg-light-blue'>
@@ -97,7 +90,7 @@ const Footer = () => {
             </p>
           </div>
           <div className='flex items-center justify-center w-auto bg-white px-8 py-3 space-x-2'>
-            <a href='/about-us' className='text-[1rem] leading-[150%]'>
+            <a href='/contact-us' className='text-[1rem] leading-[150%]'>
               Pitch us
             </a>
             <img src={arrowUpRightNavy} alt='arrow up right cursor-pointer' />
@@ -186,11 +179,11 @@ const Footer = () => {
       </div>
 
       {/* made in africa */}
-      <div className='absolute bottom-0 left-0 w-screen h-[60px]'>
+      <div className='w-screen'>
         <img
           src={madeInAfrica}
           alt='footer pattern'
-          className='w-full object-cover h-full lg:h-auto lg:scale-[1]'
+          className='w-full object-cover h-full lg:h-auto scale-[2.5] lg:scale-[1]'
         />
       </div>
     </footer>

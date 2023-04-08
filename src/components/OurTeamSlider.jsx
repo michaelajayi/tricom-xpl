@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { team } from "../global/team";
 import OurTeamSliderItem from "./OurTeamSliderItem";
 
@@ -17,7 +17,7 @@ const OurTeamSlider = () => {
     <Swiper
       slidesPerView='auto'
       // spaceBetween={0}
-      grabCursor={true}
+      watchOverflow={true}
       keyboard={{
         enabled: true,
       }}

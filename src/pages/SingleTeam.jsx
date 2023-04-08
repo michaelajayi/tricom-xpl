@@ -1,10 +1,14 @@
 import React from "react";
+import { useParams } from "react-router-dom";
+
+import SingleTeamInfo from "../components/SingleTeamInfo";
 
 import aboutUsVector from "../assets/img/about-us-vector.svg";
-import OurTeamSlider from "../components/OurTeamSlider";
 
-const OurTeam = () => {
-  const ourTeam = [];
+import { team } from "../global/team";
+
+const SingleTeam = () => {
+  const { id } = useParams();
 
   return (
     <div className='flex flex-col space-y-10 items-center justify-center w-screen h-auto relative py-0 lg:py-10'>
@@ -29,7 +33,7 @@ const OurTeam = () => {
           </div>
           {/* our team slider */}
           <div className='py-5 lg:py-20 w-full md:w-[100%] px-0 md:px-0'>
-            <OurTeamSlider />
+            <SingleTeamInfo member={team.filter((item) => item.link === id)} />
           </div>
         </div>
       </div>
@@ -37,4 +41,4 @@ const OurTeam = () => {
   );
 };
 
-export default OurTeam;
+export default SingleTeam;
