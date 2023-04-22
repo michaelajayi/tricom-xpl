@@ -42,3 +42,16 @@ body {
 .what-we-do-card:hover > .what-we-do-title {
   color: white;
 }
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.5rem;
+  row-gap: 8rem;
+}
+
+@media (min-width: 320px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
