@@ -7,7 +7,7 @@ import OurTeamSlider from "../components/OurTeamSlider";
 const OurTeam = () => {
   return (
     <div className='flex flex-col space-y-10 items-center justify-center w-screen h-auto relative py-0 lg:py-10'>
-      <div className='w-full lg:w-[90%] px-5 lg:px-0 flex flex-col space-y-5 pb-0 lg:pb-10 pt-0 lg:pt-10 justify-start items-start'>
+      <div className='w-full px-5 lg:px-0 flex flex-col space-y-5 pb-0 lg:pb-10 pt-0 lg:pt-10 justify-center items-center'>
         <img
           src={aboutUsVector}
           alt='about us vector'

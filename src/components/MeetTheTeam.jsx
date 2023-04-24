@@ -10,7 +10,7 @@ const MeetTheTeam = () => {
         <div className='flex flex-col lg:flex-row space-y-10 lg:space-y-0 justify-end space-x-5 cursor-pointer'>
           {team &&
             team.map((member, index) => (
-              <div className='flex flex-col items-center' key={index}>
+              <div className='flex flex-col lg:flex-row items-center' key={index}>
                 <a href={`/team/${member.link}`} alt={member.name}>
                   <img src={member.img} key={index} alt={member.name} />
                   <p className='text-[#011D21] text-[1rem] font-medium text-center lg:text-start'>
