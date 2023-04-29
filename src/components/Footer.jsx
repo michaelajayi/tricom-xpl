@@ -80,7 +80,7 @@ const Footer = () => {
     },
   ];
   return (
-    <footer className='w-full bg-white flex-col flex justify-center py-0 lg:py-0 relative items-center overflow-x-hidden '>
+    <footer className='w-full bg-white flex-col flex justify-center py-0 lg:py-0 relative items-center overflow-x-hidden h-auto'>
       <div className='lg:w-[90%] w-full flex flex-col space-y-20 lg:py-[6rem]'>
         {/* let's discuss the future of your brand */}
         <div className='flex flex-col lg:flex-row justify-between px-10 py-10 lg:items-start items-center space-y-5 bg-light-blue'>
@@ -179,11 +179,11 @@ const Footer = () => {
       </div>
 
       {/* made in africa */}
-      <div className='w-screen'>
+      <div className='w-screen overflow-y-hidden'>
         <img
           src={madeInAfrica}
           alt='footer pattern'
-          className='w-full object-cover h-full lg:h-auto scale-[2.5] lg:scale-[1]'
+          className='w-full object-cover scale-[2.5] lg:scale-[1]'
         />
       </div>
     </footer>
