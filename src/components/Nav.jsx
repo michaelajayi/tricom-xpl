@@ -19,7 +19,7 @@ const Nav = () => {
     <div className='w-full h-auto flex justify-center bg-white'>
       <div className='flex lg:flex-row justify-between lg:items-start items-center py-[2rem] w-full lg:w-[90%] px-5 lg:px-0'>
         <a href='/'>
-          <img src={logo} alt='logo' className='scale-[1.5] ml-[1.5rem]' />
+          <img src={logo} alt='logo' width={150} />
         </a>
         <div className='space-x-20 hidden lg:flex'>
           {navLinks.map((link, index) => (

@@ -61,7 +61,7 @@ const Footer = () => {
     },
     {
       title: "Tel",
-      value: "08064496980, 08051294887, 07019166666",
+      value: "08064496980, 08051294887",
     },
   ];
 
@@ -100,7 +100,7 @@ const Footer = () => {
         <div className='flex flex-col lg:flex-row space-x-0 space-y-20 lg:space-y-0 lg:space-x-40 lg:items-start justify-center items-center lg:justify-start'>
           {/* copyright information */}
           <div className='flex flex-col space-y-5'>
-            <img src={logo} alt='tricom logo' />
+            <img src={logo} alt='tricom logo' width={150} />
             <p className='text-navy-blue text-[14px] w-full text-center lg:text-start'>
               &copy; {new Date().getFullYear()} Tricom
             </p>

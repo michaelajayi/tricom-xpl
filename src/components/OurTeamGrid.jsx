@@ -8,7 +8,7 @@ const OurTeamGrid = () => {
       {team.map((member, index) => (
         <div
           key={index}
-          className='flex flex-col lg:flex-row justify-between space-x-5'
+          className='flex flex-col lg:flex-row justify-between space-x-5 space-y-5 lg:space-y-10'
         >
           <div>
             <img src={member.teamImg} />
