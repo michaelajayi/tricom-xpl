@@ -19,7 +19,7 @@ function App() {
       </Route>
       <Route path='' element={<RoutesWithoutGallery />}>
         <Route path='/contact-us' element={<ContactUs />} />
-        <Route path='/meet-the-team' element={<OurTeam />} />
+        {/* <Route path='/meet-the-team' element={<OurTeam />} /> */}
         <Route path='/team/:id' element={<SingleTeam />} />
       </Route>
     </Routes>

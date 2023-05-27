@@ -72,7 +72,7 @@ const LandingPortfolios = () => {
         }}
         modules={[Keyboard, FreeMode, Pagination, Navigation]}
       >
-        {portfolios.map((portfolio, index) => (
+      {portfolios.map((portfolio, index) => (
           <SwiperSlide key={index}>
             <LandingPortfolioItems portfolio={portfolio} />
           </SwiperSlide>

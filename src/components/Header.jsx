@@ -1,6 +1,5 @@
 import React from "react";
 import HeaderBody from "./HeaderBody";
-import Nav from "./Nav";
 
 const Header = () => {
   return (
