@@ -148,6 +148,13 @@ body {
   align-items: center;
 }
 
+.swiper-pagination-current,
+.swiper-pagination-total {
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.25rem;
+}
+
 @supports (-webkit-touch-callout: none) {
   /* Safari on iOS */
   .nav {

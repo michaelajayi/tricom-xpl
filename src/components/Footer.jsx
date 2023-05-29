@@ -116,7 +116,9 @@ const Footer = () => {
                 <li
                   key={index}
                   className='text-navy-blue text-[1rem] leading-[150%] text-center lg:text-start'
-                >{link.value}</li>
+                >
+                  {link.value}
+                </li>
               ))}
             </ul>
           </div>
