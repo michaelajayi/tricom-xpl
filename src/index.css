@@ -148,3 +148,9 @@ body {
   align-items: center;
 }
 
+@supports (-webkit-touch-callout: none) {
+  /* Safari on iOS */
+  .nav {
+    height: -webkit-fill-available;
+  }
+}

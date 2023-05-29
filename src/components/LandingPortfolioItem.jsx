@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingPortfolioItem = ({ portfolio }) => {
   return (
-    <div className='flex flex-col space-y-5 items-start justify-start bg-light-blue px-10 py-10 w-auto lg:w-[398px] h-[430px] lg:h-[471px]'>
+    <div className='flex flex-col space-y-5 items-start justify-start bg-light-blue px-10 py-10 w-auto lg:w-[398px] h-[480px] lg:h-[471px]'>
       <div className='w-auto h-auto'>
         {/* <img src={portfolio.logo} className='w-full h-full object-cover' /> */}
       </div>
