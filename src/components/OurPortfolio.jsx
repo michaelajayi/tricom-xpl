@@ -6,7 +6,7 @@ import LandingPortfolios from "./LandingPortfolios";
 const OurPortfolio = () => {
   return (
     <div className='w-full bg-sky-blue py-20 flex justify-center'>
-      <div className='lg:w-[90%] flex flex-col space-y-20 space-x-5 lg:space-x-0'>
+      <div className='lg:w-[90%] flex flex-col space-y-20 lg:space-x-0'>
         <div className='flex justify-between flex-col lg:flex-row px-5 lg:px-0 space-y-3 lg:space-y-0'>
           <div className='flex justify-between w-full lg:w-1/2'>
             <div className='w-full lg:w-[60%]'>

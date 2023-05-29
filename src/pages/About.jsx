@@ -15,23 +15,23 @@ export const About = () => {
           About Tricom
         </h1>
         <div className='flex flex-col space-y-8'>
-          <p className='text-[#667085] leading-[32px] text-justify lg:text-start lg:leading-[40px] text-[1rem] lg:text-[20px]'>
+          <p className='text-[#667085] leading-[32px] lg:leading-[40px] text-[1rem] lg:text-[20px]'>
             Our proposition is based on a deep understanding of the drivers of
             consumer passion and the creation of unusual solutions  - especially
             entertainment, sports, arts & culture, cause-related activities or
             user-generated content.
           </p>
-          <p className='text-[#667085] leading-[32px] text-justify lg:text-start lg:leading-[40px] text-[1rem] lg:text-[20px]'>
+          <p className='text-[#667085] leading-[32px] lg:leading-[40px] text-[1rem] lg:text-[20px]'>
             Our team brings skills and experience from diverse backgrounds
             covering Sales, Marketing, Consumer Engagement & Project Management.
           </p>
-          <p className='text-[#667085] leading-[32px] text-justify lg:text-start lg:leading-[40px] text-[1rem] lg:text-[20px]'>
+          <p className='text-[#667085] leading-[32px] lg:leading-[40px] text-[1rem] lg:text-[20px]'>
             We leverage consumer passions to deliver critical benefits to our
             clients, We work with clients to refine their engagement strategy
             and strengthen the target consumer bond that is vital to business
             success
           </p>
-          <p className='text-[#667085] leading-[32px] text-justify lg:text-start lg:leading-[40px] text-[1rem] lg:text-[20px]'>
+          <p className='text-[#667085] leading-[32px] lg:leading-[40px] text-[1rem] lg:text-[20px]'>
             We deliver end-to-end sponsorship solutions starting from
             conception, property selection, negotiation, and contracting through
             to activation and measurement.
