@@ -14,7 +14,7 @@ const Homepage = () => {
       <Header />
       <WhyTricom />
       <AboutCards />
-      <MeetTheTeam />
+      {/* <MeetTheTeam /> */}
       <OurPartners />
       <Parallax />
       <OurPortfolio />

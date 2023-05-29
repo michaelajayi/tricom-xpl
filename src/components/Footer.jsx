@@ -1,7 +1,5 @@
 import React from "react";
 
-import Gallery from "./Gallery";
-
 import arrowUpRightNavy from "../assets/img/arrow-up-right-navy.svg";
 import madeInAfrica from "../assets/img/footer-pattern.svg";
 
