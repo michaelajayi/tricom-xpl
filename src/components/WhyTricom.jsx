@@ -21,7 +21,7 @@ const WhyTricom = () => {
                 Tricom is based on a deep understanding of the drivers of
                 consumer passion and the creation of unusual solutions  -
                 especially entertainment, sports, arts & culture, cause-related
-                activities or user-generated content
+                activities or user-generated content.
               </p>
               <a
                 className='flex space-x-1 items-center bg-theme-yellow px-10 py-3 max-w-max'
