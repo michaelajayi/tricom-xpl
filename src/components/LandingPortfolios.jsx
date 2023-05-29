@@ -27,27 +27,11 @@ const LandingPortfolios = () => {
           enabled: true,
         }}
         className='mySwiper-landingPortfolio'
-        freeMode={true}
+        // freeMode={true}
         navigation={{
           prevEl: ".prev-arrow",
           nextEl: ".next-arrow",
         }}
-        // pagination={{
-        //   el: ".landing-portfolio-pagination",
-        //   type: "fraction",
-        //   clickable: true,
-        //   renderFraction: function (currentClass, totalClass) {
-        //     return (
-        //       '<span class="' +
-        //       currentClass +
-        //       '"></span>' +
-        //       "<span> / </span> " +
-        //       '<span class="' +
-        //       totalClass +
-        //       '"></span>'
-        //     );
-        //   },
-        // }}
         breakpoints={{
           320: {
             slidesPerView: 1,
@@ -70,7 +54,7 @@ const LandingPortfolios = () => {
             spaceBetween: 10,
           },
         }}
-        modules={[Keyboard, FreeMode, Pagination, Navigation]}
+        modules={[Keyboard, Pagination, Navigation]}
       >
       {portfolios.map((portfolio, index) => (
           <SwiperSlide key={index}>

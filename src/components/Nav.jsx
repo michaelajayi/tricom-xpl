@@ -20,7 +20,7 @@ const Nav = () => {
   ];
 
   return (
-    <div className='w-full h-auto flex justify-center bg-white bg-fixed'>
+    <div className='w-full h-auto flex justify-center navbar'>
       <div className='nav flex lg:flex-row justify-between lg:items-start items-center py-[2rem] w-full lg:w-[90%] px-5 lg:px-0'>
         <a href='/'>
           <img src={logo} alt='logo' width={150} />
@@ -42,7 +42,7 @@ const Nav = () => {
         <div
           className={`absolute ${
             toggleHamburger ? "h-full opacity-1" : "h-0 opacity-0"
-          } w-screen top-0 left-0 bg-gray-900 z-30 transition-all duration-[400ms] ease-in-out`}
+          } w-screen top-0 left-0 bg-gray-900 z-30 transition-all duration-[400ms] ease-in-out lg:hidden`}
         >
           <MobileMenu />
         </div>

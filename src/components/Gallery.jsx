@@ -28,7 +28,7 @@ const Gallery = () => {
             enabled: true,
           }}
           className='mySwiper-gallery border-[1.4px] border-t-1 border-b-1 border-l-1 w-screen border-navy-blue'
-          freeMode={true}
+          // freeMode={true}
           breakpoints={{
             320: {
               slidesPerView: 1,
@@ -51,7 +51,7 @@ const Gallery = () => {
               spaceBetween: 0,
             },
           }}
-          modules={[Keyboard, FreeMode, Pagination, Navigation]}
+          modules={[Keyboard, Pagination, Navigation]}
         >
           {gallery.map((item, index) => (
             <SwiperSlide
