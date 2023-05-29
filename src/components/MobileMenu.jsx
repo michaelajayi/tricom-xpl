@@ -18,7 +18,7 @@ const MobileMenu = () => {
   const { toggleHamburger } = useSelector(selectLayout);
 
   return (
-    <div className='flex flex-col space-y-20 px-10 py-[10rem] items-start'>
+    <div className='flex flex-col space-y-20 px-10 py-[8rem] items-start'>
       <a href='/'>
         <img src={logo} alt='logo' width={150} />
       </a>
