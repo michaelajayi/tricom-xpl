@@ -2,6 +2,9 @@ import React from "react";
 import { gallery } from "../global/gallery";
 import GalleryItem from "./GalleryItem";
 
+import arrowLeft from "../assets/img/arrow-left.svg";
+import arrowRight from "../assets/img/arrow-right.svg";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -51,6 +54,26 @@ const Gallery = () => {
               spaceBetween: 0,
             },
           }}
+          navigation={{
+            prevEl: ".prev-arrow-our-gallery",
+            nextEl: ".next-arrow-our-gallery",
+          }}
+          pagination={{
+            el: ".landing-portfolio-pagination",
+            type: "fraction",
+            clickable: true,
+            renderFraction: function (currentClass, totalClass) {
+              return (
+                '<span class="' +
+                currentClass +
+                '"></span>' +
+                "<span> / </span> " +
+                '<span class="' +
+                totalClass +
+                '"></span>'
+              );
+            },
+          }}
           modules={[Keyboard, Pagination, Navigation]}
         >
           {gallery.map((item, index) => (
@@ -62,6 +85,21 @@ const Gallery = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+        <div className='flex justify-start my-10'>
+          <div className='flex items-center space-x-4'>
+            <img
+              src={arrowLeft}
+              alt='arrow-left'
+              className='prev-arrow-our-gallery cursor-pointer scale-[1.3]'
+            />
+            <div className='tracking-wide landing-portfolio-pagination text-[#D59962]'></div>
+            <img
+              src={arrowRight}
+              alt='arrow-right'
+              className='next-arrow-our-gallery cursor-pointer scale-[1.3]'
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

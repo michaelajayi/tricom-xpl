@@ -1,11 +1,11 @@
 import brandActivationWhite from "../assets/img/brand-activation-light.svg";
 import brandActivation from "../assets/img/brand-activation.svg";
+import exhibitionsWhite from "../assets/img/exhibitions-light.svg";
 import exhibitions from "../assets/img/exhibitions.svg";
+import marketingWhite from "../assets/img/marketing-light.svg";
 import marketing from "../assets/img/marketing.svg";
+import sponsorshipWhite from "../assets/img/sponsorship-light.svg";
 import sponsorship from "../assets/img/sponsorship.svg";
-import exhibitionsWhite from '../assets/img/exhibitions-light.svg';
-import marketingWhite from '../assets/img/marketing-light.svg';
-import sponsorshipWhite from '../assets/img/sponsorship-light.svg';
 
 const whatWeDo = [
   {
@@ -102,6 +102,7 @@ const whatWeDo = [
         title: "Support Services",
       },
     ],
+    isLastChild: true,
   },
 ];
 

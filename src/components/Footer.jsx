@@ -1,7 +1,5 @@
 import React from "react";
 
-import Gallery from "./Gallery";
-
 import arrowUpRightNavy from "../assets/img/arrow-up-right-navy.svg";
 import madeInAfrica from "../assets/img/footer-pattern.svg";
 
@@ -116,7 +114,9 @@ const Footer = () => {
                 <li
                   key={index}
                   className='text-navy-blue text-[1rem] leading-[150%] text-center lg:text-start'
-                >{link.value}</li>
+                >
+                  {link.value}
+                </li>
               ))}
             </ul>
           </div>

@@ -20,7 +20,7 @@ const ContactUs = () => {
           className='absolute top-[80px] left-0 w-full object-cover -z-[10]'
         />
         <div className='flex flex-col space-y-1 lg:space-y-5'>
-          <h1 className='text-[32px] text-deep-blue -tracking-[.02em] leading-[44px] text-center'>
+          <h1 className='text-[32px] text-deep-blue -tracking-[.02em] leading-[44px] text-center mt-10 lg:mt-0'>
             Pitch Us
           </h1>
           <p className='text-[20px] lg:leading-[40px] text-center text-[#667085]'>
