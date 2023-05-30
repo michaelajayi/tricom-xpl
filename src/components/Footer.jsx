@@ -1,7 +1,5 @@
 import React from "react";
 
-import Gallery from "./Gallery";
-
 import arrowUpRightNavy from "../assets/img/arrow-up-right-navy.svg";
 import madeInAfrica from "../assets/img/footer-pattern.svg";
 
@@ -83,7 +81,7 @@ const Footer = () => {
     <footer className='w-full bg-white flex-col flex justify-center py-0 lg:py-0 relative items-center overflow-x-hidden h-auto'>
       <div className='lg:w-[90%] w-full flex flex-col space-y-20 lg:py-[6rem]'>
         {/* let's discuss the future of your brand */}
-        <div className='flex flex-col lg:flex-row justify-between px-10 py-10 lg:items-start items-center space-y-5 bg-light-blue'>
+        <div className='flex flex-col lg:flex-row justify-between px-10 py-10 lg:items-start items-center space-y-5 bg-light-blue mt-10'>
           <div className='w-full lg:w-1/2'>
             <p className='text-white text-[32px] -tracking-[.011em] leading-[42px] w-full lg:w-[70%] text-center lg:text-start'>
               Let's discuss the future of your brand
@@ -102,7 +100,7 @@ const Footer = () => {
           <div className='flex flex-col space-y-5'>
             <img src={logo} alt='tricom logo' width={150} />
             <p className='text-navy-blue text-[14px] w-full text-center lg:text-start'>
-              &copy; {new Date().getFullYear()} Tricom
+              &copy; {new Date().getFullYear()} TricomXPL
             </p>
           </div>
 
@@ -116,17 +114,19 @@ const Footer = () => {
                 <li
                   key={index}
                   className='text-navy-blue text-[1rem] leading-[150%] text-center lg:text-start'
-                >{`${link.title}: ${link.value}`}</li>
+                >
+                  {link.value}
+                </li>
               ))}
             </ul>
           </div>
 
           {/* about */}
-          <div className='flex flex-col space-y-5'>
+          <div className='flex flex-col space-y-4'>
             <p className='text-navy-blue text-[20px] text-center lg:text-start font-medium'>
               About
             </p>
-            <ul className='flex flex-col space-y-4 lg:space-y-5'>
+            <ul className='flex flex-col space-y-3 lg:space-y-5'>
               {aboutUsLinks.map((item, index) => (
                 <li
                   key={index}
@@ -141,7 +141,7 @@ const Footer = () => {
 
         {/* copyright */}
         <div className='flex pt-10 justify-between border border-t-1 border-b-0 border-l-0 border-r-0 border-navy-blue flex-col lg:flex-row space-y-10 lg:space-y-0'>
-          <div className='flex space-x-0 flex-col lg:flex-row lg:space-y-0 space-y-4 lg:space-x-5 items-center'>
+          <div className='flex space-x-0 flex-col lg:flex-row lg:space-y-0 space-y-2 lg:space-x-5 items-center'>
             <p className='text-navy-blue text-[1rem] text-center lg:text-start'>
               Copyright
             </p>
@@ -183,7 +183,7 @@ const Footer = () => {
         <img
           src={madeInAfrica}
           alt='footer pattern'
-          className='w-full object-cover scale-[2.5] lg:scale-[1]'
+          className='w-full object-cover lg:scale-[1]'
         />
       </div>
     </footer>

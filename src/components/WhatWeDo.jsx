@@ -12,10 +12,10 @@ const WhatWeDo = () => {
   };
 
   return (
-    <div className='flex flex-col md:flex-row justify-between py-20 lg:space-x-10 space-x-0 space-y-5 lg:space-y-0 lg:pr-20'>
+    <div className='flex flex-col md:flex-row justify-between py-20 space-x-0 lg:space-x-5 space-y-5 lg:space-y-0 lg:pr-20'>
       {whatWeDo.map((item, index) => (
         <div
-          className='flex flex-col items-start space-y-10 bg-white hover:bg-light-blue h-[460px] px-10 py-10 w-full lg:w-[290px] border border-1 border-[#011D21] hover:border-light-blue transition-all duration-200 ease-in-out what-we-do-card cursor-pointer'
+          className='flex flex-col items-start space-y-10 bg-white hover:bg-light-blue h-[460px] px-10 py-10 w-full lg:w-[290px] border border-[#011D21] hover:border-light-blue transition-all duration-200 ease-in-out what-we-do-card cursor-pointer'
           key={index}
           onMouseEnter={() => setHoveredState(item.title)}
           onMouseLeave={() => setIsHovered(false)}

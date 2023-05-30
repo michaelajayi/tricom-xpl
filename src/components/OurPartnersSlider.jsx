@@ -64,7 +64,7 @@ const OurPartnersSlider = () => {
             enabled: true,
           }}
           className='mySwiper'
-          freeMode={true}
+          // freeMode={true}
           navigation={{
             prevEl: ".prev-arrow-our-partners",
             nextEl: ".next-arrow-our-partners",
@@ -91,7 +91,7 @@ const OurPartnersSlider = () => {
               spaceBetween: 0,
             },
           }}
-          modules={[Keyboard, FreeMode, Pagination, Navigation]}
+          modules={[Keyboard, Pagination, Navigation]}
         >
           {ourPartners.map((partner, index) => (
             <SwiperSlide key={index}>

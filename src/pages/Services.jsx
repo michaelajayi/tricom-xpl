@@ -18,7 +18,7 @@ const Services = () => {
           What We Do
         </h1>
         <div className='flex flex-col space-y-8'>
-          <p className='text-[#667085] leading-[32px] text-justify lg:text-start lg:leading-[40px] text-[1rem] lg:text-[20px]'>
+          <p className='text-[#667085] leading-[32px] lg:leading-[40px] text-[1rem] lg:text-[20px]'>
             Tricom Experimental Projects Limited is a marketing and events
             agency that specialises in creating memorable brand experiences for
             clients. With a team of experienced professionals, the company
@@ -28,7 +28,7 @@ const Services = () => {
             develop and execute marketing campaigns that resonate with their
             target audience.
           </p>
-          <p className='text-[#667085] leading-[32px] text-justify lg:text-start lg:leading-[40px] text-[1rem] lg:text-[20px]'>
+          <p className='text-[#667085] leading-[32px] lg:leading-[40px] text-[1rem] lg:text-[20px]'>
             In addition to these foundational services, Tricom also offers brand
             activation, experiential activation, event management, and product
             launch services. These services help clients create an immersive
@@ -37,7 +37,7 @@ const Services = () => {
             activation management services to help clients engage their
             employees, partners, and stakeholders.
           </p>
-          <p className='text-[#667085] leading-[32px] text-justify lg:text-start lg:leading-[40px] text-[1rem] lg:text-[20px]'>
+          <p className='text-[#667085] leading-[32px] lg:leading-[40px] text-[1rem] lg:text-[20px]'>
             Tricom's field and retail marketing services include product
             sampling, brand ambassadors, POS deployment, mystery shopping,
             merchandising, data collection, and market research. These services
@@ -50,7 +50,7 @@ const Services = () => {
             create effective marketing campaigns and memorable brand
             experiences.
           </p>
-          <p className='text-[#667085] leading-[32px] text-justify lg:text-start lg:leading-[40px] text-[1rem] lg:text-[20px]'>
+          <p className='text-[#667085] leading-[32px] lg:leading-[40px] text-[1rem] lg:text-[20px]'>
             We deliver end-to-end sponsorship solutions starting from
             conception, property selection, negotiation, and contracting through
             to activation and measurement.
