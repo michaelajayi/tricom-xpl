@@ -16,7 +16,7 @@ const HeaderBody = () => {
           <div className='w-full lg:w-[55%] flex flex-col items-start space-y-10'>
             <h1 className='font-dm-sans font-medium text-[35px] lg:text-[56px] leading-[50px] lg:leading-[73px] -tracking-[.011em] text-theme-yellow px-5 lg:px-0'>
               We Leverage Consumers Passion To Deliver Key Benefits To Our
-              clients
+              Clients
             </h1>
             <div className='flex space-x-2 items-center text-light-blue w-auto border border-b-1 border-t-0 border-l-0 border-r-0 border-light-blue pb-2 cursor-pointer ml-5 lg:ml-0'>
               <a href='/about-us' className='text-[1rem] leading-[150%]'>

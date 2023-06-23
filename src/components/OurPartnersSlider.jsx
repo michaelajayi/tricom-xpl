@@ -14,9 +14,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { FreeMode, Keyboard, Navigation, Pagination } from "swiper";
 
-import roche from "../assets/img/companies/roche.png";
-import sanofi from "../assets/img/companies/sanofi.png";
-import shoprite from "../assets/img/companies/shoprite.png";
+import danone from "../assets/img/companies/danone.svg";
+import funtime from "../assets/img/companies/funtime.svg";
+import jansen from "../assets/img/companies/jansen.svg";
+import mtn from "../assets/img/companies/mtn.svg";
+import oceanCity from "../assets/img/companies/ocean-city.svg";
+import roche from "../assets/img/companies/roche.svg";
+import sanofi from "../assets/img/companies/sanofi.svg";
+import shoprite from "../assets/img/companies/shoprite.svg";
+import uacFoods from "../assets/img/companies/uac-foods.svg";
 
 const OurPartnersSlider = () => {
   const ourPartners = [
@@ -25,32 +31,36 @@ const OurPartnersSlider = () => {
       logo: sanofi,
     },
     {
-      name: "Roche",
-      logo: roche,
-    },
-    {
       name: "Shoprite",
       logo: shoprite,
     },
     {
-      name: "Sanofi",
-      logo: sanofi,
+      name: "Jansen",
+      logo: jansen,
     },
     {
-      name: "Sanofi",
-      logo: sanofi,
+      name: "MTN",
+      logo: mtn,
     },
     {
-      name: "Sanofi",
-      logo: sanofi,
+      name: "Danone",
+      logo: danone,
     },
     {
-      name: "Sanofi",
-      logo: sanofi,
+      name: "Ocean City",
+      logo: oceanCity,
     },
     {
-      name: "Sanofi",
-      logo: sanofi,
+      name: "Funtime",
+      logo: funtime,
+    },
+    {
+      name: "Roche",
+      logo: roche,
+    },
+    {
+      name: "UAC Foods",
+      logo: uacFoods,
     },
   ];
   return (
@@ -87,7 +97,7 @@ const OurPartnersSlider = () => {
               spaceBetween: 0,
             },
             1024: {
-              slidesPerView: 4,
+              slidesPerView: 5,
               spaceBetween: 0,
             },
           }}

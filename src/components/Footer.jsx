@@ -5,6 +5,7 @@ import madeInAfrica from "../assets/img/footer-pattern.svg";
 
 import logo from "../assets/img/logo.svg";
 
+import { BsWhatsapp } from "react-icons/bs";
 import facebook from "../assets/img/social-icons/facebook.svg";
 import instagram from "../assets/img/social-icons/instagram.svg";
 import linkedin from "../assets/img/social-icons/linkedin.svg";
@@ -59,7 +60,11 @@ const Footer = () => {
     },
     {
       title: "Tel",
-      value: "08064496980, 08051294887",
+      value: "08033542762, 07019166666",
+    },
+    {
+      title: "Whatsapp",
+      value: "08051294887",
     },
   ];
 
@@ -115,7 +120,16 @@ const Footer = () => {
                   key={index}
                   className='text-navy-blue text-[1rem] leading-[150%] text-center lg:text-start'
                 >
-                  {link.value}
+                  {link.title === "Whatsapp" ? (
+                    <div className='flex items-center space-x-2'>
+                      <span>{link.value}</span>
+                      <span>
+                        <BsWhatsapp color='#25D366' size={20} />
+                      </span>
+                    </div>
+                  ) : (
+                    link.value
+                  )}
                 </li>
               ))}
             </ul>

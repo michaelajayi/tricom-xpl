@@ -1,96 +1,73 @@
 import logo from "../assets/img/logo.svg";
+import danonePortfolioImg from "../assets/img/portfolios/danone.svg";
+import funtimePortfolioImg from "../assets/img/portfolios/funtime.svg";
+import jansenPortfolioImg from "../assets/img/portfolios/jansen.svg";
+import oceanCityPortfolioImg from "../assets/img/portfolios/ocean-city.svg";
 import portfolioImage1 from "../assets/img/portfolios/portfolio-image-1.svg";
-import portfolioImage2 from "../assets/img/portfolios/portfolio-image-2.svg";
-import portfolioImage3 from "../assets/img/portfolios/portfolio-image-3.svg";
+import sanofiPortfolioImg from "../assets/img/portfolios/sanofi.svg";
+import shopritePortfolioImg from "../assets/img/portfolios/shoprite.svg";
+import uacFoodsPortfolioImg from "../assets/img/portfolios/uac-foods.svg";
 
-import sanofi from '../assets/img/companies/sanofi.png';
-import roche from '../assets/img/companies/roche.png';
-import shoprite from '../assets/img/companies/shoprite.png';
+import roche from "../assets/img/companies/roche.svg";
+import sanofi from "../assets/img/companies/sanofi.svg";
+import shoprite from "../assets/img/companies/shoprite.svg";
 
 const portfolios = [
   {
-    name: "Sanofi",
+    name: "Jansen",
     logo: sanofi,
-    img: portfolioImage1,
+    img: jansenPortfolioImg,
     brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
+      "Innovating healthcare solutions with cutting-edge pharmaceutical research and development.",
   },
   {
-    name: "Roche",
-    logo: roche,
-    img: portfolioImage2,
+    name: "Danone",
+    logo: sanofi,
+    img: danonePortfolioImg,
     brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
+      "Refreshing dairy products with a modern and vibrant brand makeover.",
   },
   {
     name: "Shoprite",
     logo: shoprite,
-    img: portfolioImage3,
+    img: shopritePortfolioImg,
     brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
+      "Transforming the grocery shopping experience with a fresh and customer-centric brand approach.",
   },
   {
-    name: "Leventis (Nig) Plc",
-    logo: logo,
-    img: portfolioImage1,
+    name: "UAC Foods",
+    logo: roche,
+    img: uacFoodsPortfolioImg,
     brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
+      "Infusing culinary delight into the market with a delectable and captivating brand presence.",
+  },
+  {
+    name: "Sanofi",
+    logo: sanofi,
+    img: sanofiPortfolioImg,
+    brief:
+      "Elevating the healthcare sector with a trusted and compassionate brand narrative.",
+  },
+  {
+    name: "Ocean City",
+    logo: logo,
+    img: oceanCityPortfolioImg,
+    brief:
+      "Capturing coastal charm and adventure through a captivating and inspiring brand experience.",
+  },
+  {
+    name: "Funtime",
+    logo: roche,
+    img: funtimePortfolioImg,
+    brief:
+      "Bringing joy and excitement to families with a playful and engaging brand transformation.",
   },
   {
     name: "MTN",
     logo: logo,
     img: portfolioImage1,
     brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
-  },
-  {
-    name: "Philips",
-    logo: logo,
-    img: portfolioImage1,
-    brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
-  },
-  {
-    name: "Kimberlay Clark",
-    logo: logo,
-    img: portfolioImage1,
-    brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
-  },
-  {
-    name: "Nirvana",
-    logo: logo,
-    img: portfolioImage1,
-    brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
-  },
-  {
-    name: "Colgate",
-    logo: logo,
-    img: portfolioImage1,
-    brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
-  },
-  {
-    name: "La Casera",
-    logo: logo,
-    img: portfolioImage1,
-    brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
-  },
-  {
-    name: "Ecobank",
-    logo: logo,
-    img: portfolioImage1,
-    brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
-  },
-  {
-    name: "Central Bank of Nigeria",
-    logo: logo,
-    img: portfolioImage1,
-    brief:
-      "A very brief summary of what the startup is solving in a two-line paragraph maximum.",
+      "Energizing the telecommunications industry with a dynamic and innovative brand strategy.",
   },
 ];
 

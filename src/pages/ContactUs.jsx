@@ -1,16 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import aboutUsVector from "../assets/img/about-us-vector.svg";
 import arrowUpRightWhite from "../assets/img/arrow-up-right-white.svg";
 
-import { useLocation } from "react-router-dom";
-
 const ContactUs = () => {
-  const location = useLocation();
-  useEffect(() => {
-    console.log(location.pathname);
-  }, []);
-
   return (
     <div className='flex flex-col space-y-10 items-center justify-center w-screen h-auto relative py-3 lg:py-10'>
       <div className='w-full lg:w-[90%] px-5 lg:px-0 flex flex-col space-y-0 lg:space-y-5 pb-0 lg:pb-10 pt-0 lg:pt-10 justify-center items-center'>
