@@ -121,12 +121,15 @@ const Footer = () => {
                   className='text-navy-blue text-[1rem] leading-[150%] text-center lg:text-start'
                 >
                   {link.title === "Whatsapp" ? (
-                    <div className='flex items-center space-x-2'>
+                    <a
+                      href='https://wa.me/2348051294887'
+                      className='flex items-center space-x-2 justify-center lg:justify-start'
+                    >
                       <span>{link.value}</span>
                       <span>
                         <BsWhatsapp color='#25D366' size={20} />
                       </span>
-                    </div>
+                    </a>
                   ) : (
                     link.value
                   )}
