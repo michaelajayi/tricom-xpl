@@ -55,10 +55,6 @@ const Footer = () => {
       value: "info@tricomxpl.com",
     },
     {
-      title: "Website",
-      value: "www.tricomxpl.com",
-    },
-    {
       title: "Tel",
       value: "08033542762, 07019166666",
     },
