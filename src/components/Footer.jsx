@@ -66,16 +66,16 @@ const Footer = () => {
 
   const aboutUsLinks = [
     {
-      title: "Why Tricom",
-      link: "/why-tricom",
+      title: "About Us",
+      link: "/about-us",
     },
     {
-      title: "Team",
-      link: "/team",
+      title: "Services",
+      link: "/services",
     },
     {
-      title: "Events",
-      link: "/events",
+      title: "Talk to us",
+      link: "/contact-us",
     },
   ];
   return (
