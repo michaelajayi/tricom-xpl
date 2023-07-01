@@ -100,9 +100,9 @@ const Footer = () => {
           {/* copyright information */}
           <div className='flex flex-col space-y-5'>
             <img src={logo} alt='tricom logo' width={150} />
-            <p className='text-navy-blue text-[14px] w-full text-center lg:text-start'>
+            {/* <p className='text-navy-blue text-[14px] w-full text-center lg:text-start'>
               &copy; {new Date().getFullYear()} TricomXPL
-            </p>
+            </p> */}
           </div>
 
           {/* contact */}
