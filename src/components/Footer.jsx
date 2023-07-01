@@ -154,7 +154,13 @@ const Footer = () => {
 
         {/* copyright */}
         <div className='flex pt-10 justify-between border border-t-1 border-b-0 border-l-0 border-r-0 border-navy-blue flex-col lg:flex-row space-y-10 lg:space-y-0'>
-          <div className='flex space-x-0 flex-col lg:flex-row lg:space-y-0 space-y-2 lg:space-x-5 items-center'>
+          <div className='flex space-x-0 flex-col lg:flex-row space-y-10 lg:space-y-0'>
+            <p className='text-navy-blue text-[14px] w-full text-center lg:text-start'>
+              &copy; {new Date().getFullYear()} TricomXPL
+            </p>
+          </div>
+
+          {/* <div className='flex space-x-0 flex-col lg:flex-row lg:space-y-0 space-y-2 lg:space-x-5 items-center'>
             <p className='text-navy-blue text-[1rem] text-center lg:text-start'>
               Copyright
             </p>
@@ -170,7 +176,7 @@ const Footer = () => {
             >
               Privacy policy
             </a>
-          </div>
+          </div> */}
           <div className='flex space-x-0 flex-col lg:flex-row space-y-2 items-center lg:space-x-5'>
             <p className='text-navy-blue text-[14px] text-center text-lg:start'>
               Connect with us
