@@ -6,7 +6,7 @@ import floatingArrowDown from "../assets/img/floating-arrow-down.svg";
 const HeaderBody = () => {
   return (
     <div className='h-full flex items-end'>
-      <div className='w-full pt-[2rem] lg:pb-[8rem] pb-[5rem] lg:py-[6rem] bg-header-body-vector bg-no-repeat lg:bg-cover bg-top-center bg-cover lg:bg-top-center flex justify-center relative bg-white h-auto'> 
+      <div className='pt-[2rem] lg:pb-[8rem] pb-[5rem] lg:py-[6rem] bg-header-body-vector bg-no-repeat lg:bg-cover bg-top-center bg-cover lg:bg-top-center flex justify-center relative bg-white h-auto w-screen'> 
         <img
           src={floatingArrowDown}
           alt='floating arrow down'
